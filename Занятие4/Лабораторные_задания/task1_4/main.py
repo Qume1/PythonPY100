@@ -1,6 +1,9 @@
+from statistics import mean
+
+
 def more_than_mean(list_numbers: list):
-    ...  # TODO найти среднее арифметическое списка
-    ...  # TODO с помощью list comprehension вернуть новый список
+    meanlist_ = mean(list_numbers)  # TODO найти среднее арифметическое списка
+    return [i for i in list_numbers if i > meanlist_]  # TODO с помощью list comprehension вернуть новый список
 
 
 if __name__ == "__main__":

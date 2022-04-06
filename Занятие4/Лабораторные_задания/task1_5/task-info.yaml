@@ -10,8 +10,8 @@ files:
       length: 55
       offset: 79
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       list_even = [num for num in list_ if num % 2 == 0]
           list_odd = [num for num in list_ if num % 2 == 1]
@@ -23,7 +23,7 @@ files:
       offset: 140
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       len_even = len(list_even)
           len_odd = len(list_odd)
@@ -36,7 +36,7 @@ files:
       offset: 182
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if len_odd > len_even:
               print("Нечетные")
@@ -56,6 +56,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
