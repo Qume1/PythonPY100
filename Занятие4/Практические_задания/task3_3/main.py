@@ -3,6 +3,7 @@ def is_exist_fruit(cart_dict: dict, fruit_key: str) -> bool:
         return True
     else:
         return False
+    #return True if fruit_key in cart_dict else False
 
 
 if __name__ == "__main__":

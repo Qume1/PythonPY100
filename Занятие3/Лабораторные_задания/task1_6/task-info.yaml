@@ -21,7 +21,7 @@ files:
 
           return need_money
   - offset: 207
-    length: 77
+    length: 79
     placeholder_text: '...  # TODO вызвать функцию и проверить работоспособность'
     initial_state:
       length: 57
