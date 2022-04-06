@@ -6,16 +6,16 @@ def get_count_char(str_: str) -> dict:
     for char in str_:
         if char.isalpha():  # TODO с помощью метода строк isalpha будем проверять, является ли символ буквой
             if char in char_dict:  # TODO проверяем есть ли уже символ среди ключей
-                  # TODO если есть, то увеличиваем значение на 1
+                char_dict[char] += 1   # TODO если есть, то увеличиваем значение на 1
             else:
-                char_dict[char] =   # TODO в противном случае создаем новый элемент в словаре
+                char_dict[char] = 1  # TODO в противном случае создаем новый элемент в словаре
     return char_dict
 
 
 def frequency_chars(char_dict: dict) -> dict:
-    total_count = ...  # TODO найти сумму всех значений словаря
+    total_count = sum(char_dict.values())  # TODO найти сумму всех значений словаря
 
-    return ...  # TODO с помощью dict comprehension возвращаем словарь с процентными соотношениями значений
+    return {char: round(value / total_count, 3) for char, value in char_dict.items()}  # TODO с помощью dict comprehension возвращаем словарь с процентными соотношениями значений
 
 
 if __name__ == "__main__":

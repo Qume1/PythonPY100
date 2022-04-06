@@ -20,7 +20,7 @@ files:
       offset: 51
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: str_.lower()
   - offset: 254
     length: 97
@@ -31,7 +31,7 @@ files:
       offset: 245
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'char.isalpha():'
   - offset: 367
     length: 68
@@ -41,48 +41,48 @@ files:
       offset: 347
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'char in char_dict:'
-  - offset: 452
-    length: 48
+  - offset: 448
+    length: 73
     placeholder_text: '...  # TODO если есть, то увеличиваем значение на 1'
     initial_state:
       length: 51
       offset: 417
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: char_dict[char] += 1
-  - offset: 535
-    length: 77
+  - offset: 556
+    length: 78
     placeholder_text: '...  # TODO в противном случае создаем новый элемент в словаре'
     initial_state:
       length: 62
       offset: 503
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: char_dict[char] = 1
-  - offset: 700
-    length: 45
+  - offset: 722
+    length: 65
     placeholder_text: '...  # TODO найти сумму всех значений словаря'
     initial_state:
       length: 45
       offset: 653
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: sum(char_dict.values())
-  - offset: 758
-    length: 96
+  - offset: 800
+    length: 167
     placeholder_text: '...  # TODO с помощью dict comprehension возвращаем словарь
       с процентными соотношениями значений'
     initial_state:
       length: 96
       offset: 711
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '{char: round(value / total_count, 3) for char, value
       in char_dict.items()}'
   text: "def get_count_char(str_: str) -> dict:\n\n    str_ = ...  # TODO для нача\
@@ -103,5 +103,8 @@ files:
     \ их с помощью метода строк join. Приступим!!!!\n    \"\"\"\n    chars_counter\
     \ = get_count_char(main_str)\n    print(frequency_chars(chars_counter))\n"
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 06 Apr 2022 18:10:31 UTC
 record: -1
