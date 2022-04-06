@@ -11,69 +11,69 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 51
-    length: 96
+  - offset: 50
+    length: 106
     placeholder_text: '...  # TODO для начала нужно перевести текст в нижний регистр
       и не забыть что возвращается копия'
     initial_state:
       length: 96
       offset: 51
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: str_.lower()
-  - offset: 245
-    length: 86
+  - offset: 254
+    length: 97
     placeholder_text: '...:  # TODO с помощью метода строк isalpha будем проверять,
       является ли символ буквой'
     initial_state:
       length: 86
       offset: 245
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: 'char.isalpha():'
-  - offset: 347
-    length: 53
+  - offset: 367
+    length: 68
     placeholder_text: '...:  # TODOпроверяем есть ли уже символ среди ключей'
     initial_state:
       length: 53
       offset: 347
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: 'char in char_dict:'
-  - offset: 417
-    length: 51
+  - offset: 452
+    length: 48
     placeholder_text: '...  # TODO если есть, то увеличиваем значение на 1'
     initial_state:
       length: 51
       offset: 417
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: char_dict[char] += 1
-  - offset: 503
-    length: 62
+  - offset: 535
+    length: 77
     placeholder_text: '...  # TODO в противном случае создаем новый элемент в словаре'
     initial_state:
       length: 62
       offset: 503
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: char_dict[char] = 1
-  - offset: 653
+  - offset: 700
     length: 45
     placeholder_text: '...  # TODO найти сумму всех значений словаря'
     initial_state:
       length: 45
       offset: 653
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: sum(char_dict.values())
-  - offset: 711
+  - offset: 758
     length: 96
     placeholder_text: '...  # TODO с помощью dict comprehension возвращаем словарь
       с процентными соотношениями значений'

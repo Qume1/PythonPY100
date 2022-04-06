@@ -1,5 +1,6 @@
 def digit_sum(num: int) -> bool:
-    ...  # TODO не забыть проерить, что число дожно быть четырехзначное
+    list_ = [int(d) for d in str(abs(num))]
+    return True if len(str(num)) == 4 and sum(list_) % 7 == 0 else False# TODO не забыть проерить, что число дожно быть четырехзначное
 
     ...  # TODO проверить кратность суммы цифр
 

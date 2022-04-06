@@ -15,7 +15,7 @@ files:
     encrypted_possible_answer: |-
       list_even = [num for num in list_ if num % 2 == 0]
           list_odd = [num for num in list_ if num % 2 == 1]
-  - offset: 489
+  - offset: 485
     length: 65
     placeholder_text: '...  # TODO найти длины этих списков'
     initial_state:
@@ -27,7 +27,7 @@ files:
     encrypted_possible_answer: |-
       len_even = len(list_even)
           len_odd = len(list_odd)
-  - offset: 647
+  - offset: 643
     length: 0
     placeholder_text: '...  # TODO распечатать каких чисел больше. Учтите, что длины
       могу быть равны'

@@ -1,5 +1,10 @@
-def task(num):  # TODO добавить аннотацию типов
-    ...  # TODO найти сумму цифр числа и понять двузначная ли она
+def task(num: int) -> bool:  # TODO добавить аннотацию типов
+    list_ = [int(d) for d in str(abs(num))]
+    if sum(list_) > 9:
+        return True
+    else:
+        return False
+
 
 
 if __name__ == "__main__":

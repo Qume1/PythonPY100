@@ -1,7 +1,11 @@
 def is_palindrome_number(num: int) -> bool:
-    ...  # TODO проверить что число больше или равно нулю
+    if num < 0:
+        return False
+    list_ = [int(d) for d in str(abs(num))]
 
-    ...  # TODO проверить является ли число палиндром
+    reverse_list = list(reversed(list_))
+
+    return True if list_ == reverse_list else False  # TODO проверить является ли число палиндром
 
 
 if __name__ == "__main__":
